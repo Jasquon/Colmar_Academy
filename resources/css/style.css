@@ -77,3 +77,31 @@ nav a {
     padding: 8px;
 
 }
+
+/* Section 2 */
+
+#section2 {
+    padding: 32px 24px;
+    display:flex;
+}
+
+#leftside {
+width: 60%;
+}
+
+#section2 div {
+
+}
+#footnote  {
+    font-weight: 200;
+}
+.large_photo2 {
+    width: 100%;
+}
+.small_photo {
+   width: 35%; 
+}
+
+.sidebar {
+display: inline-flex;
+}
