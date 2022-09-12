@@ -143,3 +143,14 @@ flex-shrink: 0;
 .blue a {
     color: #627Be1;
 }
+
+/* Section 3 */
+.banner {
+    background-color: #d7d7d7;
+    text-align: center;
+    padding: 32px 0px;
+}
+
+.banner h2 {
+    margin: 0;
+}
