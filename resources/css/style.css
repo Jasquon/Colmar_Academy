@@ -200,3 +200,11 @@ flex-shrink: 0;
     width: 100%;
     height:auto;
 }
+
+/* Banner 2 */
+
+.banner2 h2{
+    text-align: center;
+    padding: 32px 0px;
+    margin:0;
+}
