@@ -331,6 +331,11 @@ flex-shrink: 0;
     display:flex;
 }
 
+#leftside2 {
+    width: 60%;
+    flex-shrink: 0;
+    }
+    
 .sidebar2 {
     width: 40%;
     padding-left: 24px;
@@ -361,6 +366,28 @@ flex-shrink: 0;
 
 #fisma {
     background-color: #d7d7d7;
+}
+
+/* section4 mobile */
+@media only screen and (max-width: 800px) {
+    #section4 {
+        padding: 0;
+        display: block;
+    }
+
+    #leftside2 {
+        width: 100%;
+    }
+    #leftside2 div h1, #leftside2 div p{
+        display: none;
+    }
+    .sidebar2 {
+        display: none;
+    }
+
+    footer a {
+        display: none;
+    }
 }
 
 footer {
