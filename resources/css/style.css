@@ -274,14 +274,46 @@ flex-shrink: 0;
     padding: 0 16px;
 }
 
-.image_container {
-    
-}
 
 .image_container img {
     display: block;
     width: 100%;
     height:auto;
+}
+
+/* Section3 Mobile */
+
+@media only screen and (max-width: 800px) {
+    #section3 {
+        display: block;
+        background-color: white;
+        padding: 0;
+    }
+
+    .card_container {
+        display: block;
+    }
+
+    .card {
+        display: block;
+        max-width: 100%;
+        background-color: #d7d7d7;
+        padding: 0;
+        margin: 4px;
+    }
+
+    .card h3 {
+        margin: 0;
+        padding: 16px 16px 24px 16px;
+    }
+    .image_container {
+        display: none;
+    }
+
+    .card p {
+        display: none;
+    }
+
 }
 
 /* Banner 2 */
