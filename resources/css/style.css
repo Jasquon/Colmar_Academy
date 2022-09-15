@@ -184,6 +184,45 @@ flex-shrink: 0;
     color: #627Be1;
 }
 
+/* Secion2 Mobile */ 
+@media only screen and (max-width: 800px) {
+    #section2 {
+        display: block;
+        padding: 0;
+    }
+    #leftside {
+        display: none;
+    }
+    #top_image {
+        padding-top:16px;
+    }
+    .small_photo {
+        width: 100%;
+        padding: 4rem 0 0 0;
+    }
+    .sidebar {
+        display:block;
+        width: 90%;
+        padding: 0 0 0 16px;
+        margin: 0;
+    }
+
+    .sidebar div {
+        display: block;
+    }
+
+    .sidebar div div {
+        display: block;
+        padding-left: 16px;
+    }
+
+
+    #oliver {
+        background-color: white;
+        padding-bottom: 32px;
+    }
+}
+
 /* Banner */
 .banner h2 {
     background-color: #d7d7d7;
