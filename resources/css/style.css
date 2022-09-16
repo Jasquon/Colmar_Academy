@@ -335,6 +335,14 @@ flex-shrink: 0;
     width: 60%;
     flex-shrink: 0;
     }
+
+#leftside2 h1 {
+    margin: 24px 0 0 0;
+}
+
+#leftside2 p {
+    margin: 8px 0 32px 0;
+}
     
 .sidebar2 {
     width: 40%;
